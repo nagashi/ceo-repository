@@ -1,3 +1,5 @@
+
+    
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,6 +15,7 @@
  *= require_tree .
  *= require_self
  */
+/* ( my comment) @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
 @import "bootstrap";
 
 .clear {
@@ -49,6 +52,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'ambleregular', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -57,4 +62,14 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'amblelight_condensed', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h2 {
+  font-family: 'amblebold_italic', sans-serif;
 }
