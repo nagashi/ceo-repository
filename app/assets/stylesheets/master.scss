@@ -122,3 +122,10 @@ h2 span {
 ::selection {
   background-color: #f84342;
 }
+
+html {
+ position:relative;
+ min-height:100%;
+ min-width: 100%;
+ overflow-x: hidden;
+}
